@@ -1,0 +1,37 @@
+html, body{
+  display: block;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+#run {
+	margin: 0 auto;
+	float: left;
+
+}
+
+#grid {
+	margin-top: 40px;
+	margin-right: 20px;
+	float: right;
+	width: 45%;
+	height: 70%;
+	box-sizing: border-box;
+
+}
+
+#grid .grid-cell {
+	/*background: radial-gradient(#008000, rgba(0, 0, 0, 0));*/
+	float: left;
+	border: 3px solid;
+	border-color: black;
+	box-sizing:border-box;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.word-search {
+	margin-top: 40px;
+	float: left;
+}
